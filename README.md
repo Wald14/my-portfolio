@@ -16,6 +16,7 @@ The deployed website can be accesed [here](ADD LINK HERE)
 
 **UX Design**
 - [Example Portfolio](https://nicepage.com/website-templates/preview/web-design-portfolio-262230?device=desktop) I did not inspect the code of this website, I only looked at it for visual design inspiration. The challenge of getting a circle around my portfolio photo seemed fun.
+- [Color Palette](https://coolors.co/palette/dcdcdd-c5c3c6-46494c-4c5c68-1985a1)
 
 **General Coding Tips & Tricks**
 - [W3School](https://www.w3schools.com/)

@@ -1,0 +1,67 @@
+:root {
+  /* See README for where Color Palette inspiration came from*/
+  --dkcolor1: #46494C;
+  --dkcolor2: #4C5C68;
+  --dkcolor3: #1985A1;
+  --ltcolor1: #DCDCDD;
+  --ltcolor2: #C5C3C6;
+}
+
+header {
+  background-color: var(--dkcolor2);
+  text-align: center;
+}
+
+header img {
+  width: 30%;
+  margin: 20px;
+  object-fit: cover;
+  border: 10px solid var(--ltcolor1);
+  border-radius: 100%;
+  position: relative;
+  top: 100px;
+}
+
+h1 {
+  padding: 90px 0px 10px 0px;
+  background-color: var(--ltcolor1);
+  font-size: 3rem;
+}
+
+nav {
+  background-color: var(--ltcolor1);
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px 20% 20px 20%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* nav li {
+  padding: 0px 20px 0px 20px;
+} */
+
+nav a {
+  text-decoration: none;
+  color: var(--dkcolor1);
+  font-size: 2rem;
+}
+
+
+
+
+
+
+/* TEMPORARILY sets items to wrap in section tags */
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* TEMPORARILY sets images to be smaller */
+main img {
+  width: 400px;
+  height: 400px;
+}
