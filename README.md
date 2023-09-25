@@ -15,7 +15,11 @@ The deployed website can be accesed [here](ADD LINK HERE)
 
 
 **UX Design**
-- [Example Portfolio](https://nicepage.com/website-templates/preview/web-design-portfolio-262230?device=desktop) I did not inspect the code of this website, I only used it for design inspiration. The challenge of getting a circle around my portfolio photo seemed fun.
+- [Example Portfolio](https://nicepage.com/website-templates/preview/web-design-portfolio-262230?device=desktop) I did not inspect the code of this website, I only looked at it for visual design inspiration. The challenge of getting a circle around my portfolio photo seemed fun.
+
+**General Coding Tips & Tricks**
+- [W3School](https://www.w3schools.com/)
+- [Photo Transitions](https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h) - specifically how to darken an image and have it zoom in and out when hovered over
 
 ## Site Preview
 
