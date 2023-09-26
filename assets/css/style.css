@@ -18,7 +18,7 @@ header img {
   margin: 20px;
   object-fit: cover;
   border: 10px solid var(--ltcolor1);
-  border-radius: 100%;
+  border-radius: 50%;
   position: relative;
   top: 100px;
 }
@@ -132,4 +132,69 @@ h2 {
 #contact-info a {
   text-decoration: none;
   color: var(--ltcolor1);
+}
+
+
+
+
+/* media query for tablets */
+/* Removes the hover function */
+/* Increase profile photo size */
+/* Reduce padding to left and right of nav bar */
+@media screen and (max-width: 768px) {
+  header img {
+    width: 50%
+  }
+
+  .card img {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  nav ul {
+    padding: 20px 15% 20px 15%;
+  }
+
+}
+
+/* media query for phone screens */
+/* Increase profile photo size */
+/* Decrease font-sizes (expect for <p> */
+/* Change nav bar, projects, and contact me to be verticle */
+/* Priority project is no longer larger */
+@media screen and (max-width: 425px) {
+  header img {
+    width: 75%;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem;;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  nav ul li {
+    padding: 0.5rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 68%;;
+  }
+
+  #contact-info ul {
+    flex-direction: column;
+  }
+
+  #contact-info ul li {
+    padding-bottom: 8px;
+  }
+
 }
