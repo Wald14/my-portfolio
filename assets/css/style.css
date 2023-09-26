@@ -33,11 +33,12 @@ h1 {
 nav {
   background-color: var(--ltcolor1);
   padding: 5px;
+  border-bottom: 3px solid var(--dkcolor2);
 }
 
 nav ul {
   display: flex;
-  padding: 20px 20% 20px 20%;
+  padding: 20px 25% 20px 25%;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -52,13 +53,14 @@ nav a {
 /* Sizing all h2 headers (About Me, Work, and Contact Me) */
 h2 {
   font-size: 3rem;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 16% 2rem 16%;
 }
 
 /* CSS related specifically to About Me */
 #about-me p {
   font-size: 1.2rem;
-  padding: 0rem 3rem 0rem 3rem;
+  padding: 0rem 16% 3rem 16%;
+  border-bottom: 3px solid var(--dkcolor2);
 }
 
 /* The following target project cards and their content from the 'Work' section*/
@@ -85,7 +87,7 @@ h2 {
   transform: scale(1.2);
 }
 
-/* Makes card become lighter */
+/* Makes card become lighter. See acknowledge section of the README to find where this inspiration came from */
 .card img:hover {
   opacity: 1;
   transform: scale(1.00);
@@ -109,4 +111,25 @@ h2 {
 /* Makes the priority project larger then the rest (in PC or tablet view) */
 #priority {
   width: 68%;
+}
+
+/* Contact Me Related CSS */
+#contact-info {
+  color: var(--ltcolor1);
+  background-color: var(--dkcolor2);
+  border-top: 8px solid var(--dkcolor3);
+  margin-top: 20px;
+}
+
+#contact-info ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0% 16% 3rem 16%;
+  font-size: 1.2rem;
+}
+
+#contact-info a {
+  text-decoration: none;
+  color: var(--ltcolor1);
 }

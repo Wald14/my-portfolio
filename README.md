@@ -20,6 +20,7 @@ The deployed website can be accesed [here](ADD LINK HERE)
 
 **General Coding Tips & Tricks**
 - [W3School](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 - [Photo Transitions](https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h) - specifically how to darken an image and have it zoom in and out when hovered over
 
 ## Site Preview
