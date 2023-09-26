@@ -7,11 +7,19 @@
   --ltcolor2: #C5C3C6;
 }
 
+/* Makes the webpage scroll to the selected section vs jumping to it */
+* {
+  scroll-behavior: smooth;
+}
+
+
 /* CSS Related to portfolio photo and h1 header */
 header {
   background-color: var(--dkcolor2);
   text-align: center;
+  scroll-behavior: smooth;
 }
+
 
 header img {
   width: 30%;
@@ -21,13 +29,16 @@ header img {
   border-radius: 50%;
   position: relative;
   top: 100px;
+  box-shadow: 0px 0px 50px var(--dkcolor3);
 }
 
+
 h1 {
-  padding: 90px 0px 10px 0px;
+  padding: 120px 0px 10px 0px;
   background-color: var(--ltcolor1);
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
+
 
 /* CSS Related to Nav Bar Section */
 nav {
@@ -36,12 +47,14 @@ nav {
   border-bottom: 3px solid var(--dkcolor2);
 }
 
+
 nav ul {
   display: flex;
   padding: 20px 25% 20px 25%;
   flex-direction: row;
   justify-content: space-around;
 }
+
 
 nav a {
   text-decoration: none;
@@ -56,6 +69,7 @@ h2 {
   padding: 2rem 16% 2rem 16%;
 }
 
+
 /* CSS related specifically to About Me */
 #about-me p {
   font-size: 1.2rem;
@@ -63,12 +77,14 @@ h2 {
   border-bottom: 3px solid var(--dkcolor2);
 }
 
+
 /* The following target project cards and their content from the 'Work' section*/
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 .card {
   border: 3px solid var(--dkcolor1);
@@ -79,6 +95,7 @@ h2 {
   background-color: black;
 }
 
+
 .card img {
   height: 100%;
   width: 100%;
@@ -87,12 +104,14 @@ h2 {
   transform: scale(1.2);
 }
 
+
 /* Makes card become lighter. See acknowledge section of the README to find where this inspiration came from */
 .card img:hover {
   opacity: 1;
   transform: scale(1.00);
   transition: 0.6s;
 }
+
 
 /* Puts text overlaid on photos */
 .card-text {
@@ -103,15 +122,18 @@ h2 {
   color: var(--ltcolor1);
 }
 
+
 .card-text h3,
 .card-text p {
   text-align: left;
 }
 
+
 /* Makes the priority project larger then the rest (in PC or tablet view) */
 #priority {
   width: 68%;
 }
+
 
 /* Contact Me Related CSS */
 #contact-info {
@@ -121,6 +143,7 @@ h2 {
   margin-top: 20px;
 }
 
+
 #contact-info ul {
   display: flex;
   flex-direction: row;
@@ -129,19 +152,18 @@ h2 {
   font-size: 1.2rem;
 }
 
+
 #contact-info a {
   text-decoration: none;
   color: var(--ltcolor1);
 }
 
 
-
-
 /* media query for tablets */
 /* Removes the hover function */
 /* Increase profile photo size */
 /* Reduce padding to left and right of nav bar */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   header img {
     width: 50%
   }
@@ -157,12 +179,14 @@ h2 {
 
 }
 
+
 /* media query for phone screens */
+/* Removes the hover function at this size*/
 /* Increase profile photo size */
 /* Decrease font-sizes (expect for <p> */
 /* Change nav bar, projects, and contact me to be verticle */
 /* Priority project is no longer larger */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   header img {
     width: 75%;
   }
