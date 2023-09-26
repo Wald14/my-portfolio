@@ -23,6 +23,9 @@ The deployed website can be accesed [here](ADD LINK HERE)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 - [Photo Transitions](https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h) - specifically how to darken an image and have it zoom in and out when hovered over
 
+**Other**
+- The reset.css file was premade by the bootcamp and my instructor gave us permission to use it.
+
 ## Site Preview
 
 The following image shares the web application's apperance:
