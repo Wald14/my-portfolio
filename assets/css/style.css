@@ -72,10 +72,17 @@ h2 {
 /* CSS related specifically to About Me */
 #about-me p {
   font-size: 1.2rem;
-  padding: 0rem 16% 3rem 16%;
-  border-bottom: 3px solid var(--dkcolor2);
+  padding: 0rem 16% 1rem 16%;
+  line-height: 1.5rem;
 }
 
+/* Add border after the last paragraph in About Me section */
+#about-me p:last-child {
+  font-size: 1.2rem;
+  padding: 0rem 16% 3rem 16%;
+  border-bottom: 3px solid var(--dkcolor2);
+  padding: 0rem 16% 3rem 16%;
+}
 
 /* The following target project cards and their content from the 'Work' section*/
 .projects {

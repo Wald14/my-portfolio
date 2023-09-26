@@ -27,8 +27,8 @@ This section shares some information about my past work experience and my intere
 
 ### Work
 Currently I am in the early stages of bootcamp so I don't have projects to show off just yet to a potential employeer. In there place, I've linked them to the following places:
-    - The first project links to the repository to my first homework assignment. This is also the "priority" project. That means, it will be larger then the other project cards <ins>*until the window screen is shrunk to below 768px*</ins>.
-    - The other four project cards link to various Google searches about the specific topic they list, either hockey, dog spots, desserts, and a helmet from Star Wars.
+- The first project links to the repository to my first homework assignment. This is also the "priority" project. That means, it will be larger then the other project cards <ins>*until the window screen is shrunk to below 768px*</ins>. I did this because generally one doesn't hover over things on a webpage when using a tablet or phone, so this function no longer seemed necessary for those screens.
+- The other four project cards link to various Google searches about the specific topic they list, either hockey, dog spots, desserts, and a helmet from Star Wars.
 
 ### Footer / Contact Me
 The instructor advised us not to use our real phone numbers or emails at this time as it could lead to an increase to junk calls/emails. As a result, I've used fake ones in their place. The GitHub link does go to my actual GitHub however.
