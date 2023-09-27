@@ -1,19 +1,3 @@
-<style>
-  h1,
-  h2 {
-    color: #36E638;
-    margin-bottom: 3px;
-  }
-  h3 {
-    color: #A1F3A2;
-    font-size: 16px;
-    margin-bottom: 3px;
-  }
-  .fontsizebump {
-    font-size: 16px;
-  }
-</style>
-
 # My Portfolio
 
 ## Webpage Description
@@ -27,14 +11,16 @@ This section shares some information about my past work experience and my intere
 
 ### Work
 Currently I am in the early stages of bootcamp so I don't have projects to show off just yet to a potential employeer. In there place, I've linked them to the following places:
-- The first project links to the repository to my first homework assignment. This is also the "priority" project. That means, it will be larger then the other project cards <ins>*until the window screen is shrunk to below 768px*</ins>. I did this because generally one doesn't hover over things on a webpage when using a tablet or phone, so this function no longer seemed necessary for those screens.
+- The first project links to the repository to my first homework assignment. This is also the "priority" project. That means, it will be larger then the other project cards <ins>*until the window screen is shrunk to below 768px*</ins>. At this point, all projects will fall into a nice column.
 - The other four project cards link to various Google searches about the specific topic they list, either hockey, dog spots, desserts, and a helmet from Star Wars.
+
+As long as the screen size is larger then 768px, when the user hovers over a project, the image will zoom out and lighten up. The hover function is removed below 768px as people generally don't hover over items on their phones.
 
 ### Footer / Contact Me
 The instructor advised us not to use our real phone numbers or emails at this time as it could lead to an increase to junk calls/emails. As a result, I've used fake ones in their place. The GitHub link does go to my actual GitHub however.
 
 ## Link to Website
-The deployed website can be accesed [here](ADD LINK HERE)
+The deployed website can be accesed [here](https://wald14.github.io/my-portfolio/)
 
 
 ## Acknowledgements
@@ -60,7 +46,7 @@ The following webpages held with general HTML and CSS coding for a wide variety 
 
 
 ## Site Preview
-
 The following image shares the web application's apperance:
+<br>
 
-![Image preview of what the portfolio website looks like]()
+![Image preview of what the portfolio website looks like](./assets/images/web_capture__wald14.github.io.jpeg)
